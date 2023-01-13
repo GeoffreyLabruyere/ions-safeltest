@@ -1,0 +1,52 @@
+.navbar-top {
+    height: 10%; /* hauteur de la barre */
+    width: 100%; /* largeur de la barre */
+    background-color: #1B2D51; /* couleur de fond de la barre */
+    position: fixed; /* fixe la barre en haut de la page */
+    top: 0; /* positionne la barre en haut de la page */
+    left: 0; /* positionne la barre à gauche de la page */
+    z-index: 99; /* garantit que la barre sera au-dessus des autres éléments de la page */
+}
+
+/* Mise en forme pour les fenêtres de taille maximale */
+@media only screen and (min-width: 600px) {
+  #top-bar {
+    height: 70px;
+  }
+}
+
+/* Mise en forme pour les fenêtres de taille minimale */
+@media only screen and (max-width: 400px) {
+  #top-bar {
+    height: 30px;
+    }
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.resp-img {
+    width: 15%;
+    height: 80%;
+    margin-left: 1.5%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    margin-right: 1.5%;
+}
+
+.resp-button {
+    width: 100%;
+    height: auto;
+}
