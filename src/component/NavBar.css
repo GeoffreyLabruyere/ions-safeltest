@@ -5,6 +5,8 @@
     position: fixed; /* fixe la barre en haut de la page */
     top: 0; /* positionne la barre en haut de la page */
     left: 0; /* positionne la barre à gauche de la page */
+    border-bottom-right-radius : 5px;
+    border-bottom-left-radius : 5px;
     z-index: 99; /* garantit que la barre sera au-dessus des autres éléments de la page */
 }
 
@@ -33,7 +35,7 @@
 
 .resp-img {
     width: 15%;
-    height: 80%;
+    height: 80% auto;
     margin-left: 1.5%;
 }
 
@@ -49,4 +51,8 @@
 .resp-button {
     width: 100%;
     height: auto;
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 0;
 }

@@ -12,6 +12,12 @@
 </div>
 
 
+  const {click, setClick} = useState(false);
+
+  const handleClick = () => setClick(!click);
+
+  const closeMobileMenu = () => setClick(false);
+
 <>
 <nav className='navbar'>
   <div className='navbar-container'>
