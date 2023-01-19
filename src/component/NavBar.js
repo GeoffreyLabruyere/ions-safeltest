@@ -12,11 +12,10 @@ function NavBar() {
         <div className='navbar-top'>
             <div className='navbar-container'>
               <img src={SAFELlogo} className='resp-img'/>
-              <div>
-                <SearchBar/>
-              </div>
+              <SearchBar/>
               <div className="navigation">
                 <Link to="/" className="navigation-button">Home</Link>
+                <Link to="/products" className="navigation-button">Nos produits</Link>
                 <Link to="/about-us" className="navigation-button">À propos de nous</Link>
                 <Link to="/contact-us" className="navigation-button">Nous contacter</Link>
               </div>
