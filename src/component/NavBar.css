@@ -56,3 +56,19 @@
     border: none;
     padding: 0;
 }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-button {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.search-results {
+  color: black;
+
+}
