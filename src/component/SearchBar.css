@@ -3,7 +3,7 @@
     align-items: center;
     background-color: #f5f5f5;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .search-icon {
@@ -17,3 +17,9 @@
     border: none;
     background-color: transparent;
 }
+
+.search-results {
+    color: black;
+    position: fixed;
+    bottom: 80px;
+  }
