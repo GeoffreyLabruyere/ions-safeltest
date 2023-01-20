@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import SAFELlogo from './SAFELBLUE.png';
 import './NavBar.css';
 import SearchBar from './SearchBar';
-import LoginButton from './Login';
 
 
 function NavBar() {
