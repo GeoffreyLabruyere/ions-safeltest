@@ -12,6 +12,12 @@
 </div>
 
 
+  const {click, setClick} = useState(false);
+
+  const handleClick = () => setClick(!click);
+
+  const closeMobileMenu = () => setClick(false);
+
 <>
 <nav className='navbar'>
   <div className='navbar-container'>
@@ -39,3 +45,11 @@
   </ul>
 </nav>
 </>
+
+
+
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%)

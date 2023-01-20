@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './component/NavBar';
 import React from 'react';
+import ContactUs from './component/ContactUs';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path='/' exact />
+          
+          <Route path='/Contact-us' element={<ContactUs/>} />
         </Routes>
       </Router>
     </>
