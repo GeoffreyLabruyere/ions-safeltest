@@ -17,7 +17,7 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .resp-img {
@@ -26,16 +26,23 @@
   margin-left: 1.5%;
 }
 
-.navigation {
-display: flex;
-
+.navigation-button{
+  color: white;
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-.navigation-button {
-color: white;
-text-decoration: none;
+.sign {
+  justify-self: right;
+  text-decoration: none;
+  color: black;
+  border: 10px;
+  border: 2px solid black;
+  background-color: white;
+  padding: 13px;
+  font-size: 0.9rem;
 
-padding: 10px;
 }
 
 /* Mise en forme pour les fenêtres de taille maximale */
