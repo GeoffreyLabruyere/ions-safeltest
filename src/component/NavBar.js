@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import SAFELlogo from './SAFELBLUE.png';
 import './NavBar.css';
@@ -14,14 +14,13 @@ function NavBar() {
               <img src={SAFELlogo} className='resp-img'/>
               <SearchBar/>
               <div className="navigation">
-                <Link to="/" className="navigation-button">Home</Link>
+                <Link to="/" className="navigation-button">Accueil</Link>
                 <Link to="/products" className="navigation-button">Nos produits</Link>
                 <Link to="/about-us" className="navigation-button">À propos de nous</Link>
                 <Link to="/contact-us" className="navigation-button">Nous contacter</Link>
               </div>
-            </div>
-            <div className='navbar-underline'/>
           </div>
+        </div>
       </nav>
     </>
   );

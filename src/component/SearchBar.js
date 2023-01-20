@@ -47,8 +47,8 @@ class SearchBar extends Component {
           />
         </div>
         <div className="search-results">
-          { this.state.searchResults.length === 0 ? <div>Aucune correspondance</div> : 
-            this.state.searchResults.map((result, index) => <div key={index}>{result.name} <div>Category: {result.category}</div> <div>Price: {result.price}</div></div>) 
+          { this.state.searchResults.length === 0 ? <div>Aucune correspondance</div> :
+            this.state.searchResults.map((result, index) => <div key={index}>{result.name} <div>Category: {result.category}</div> <div>Price: {result.price}</div></div>)
           }
         </div>
       </form>
